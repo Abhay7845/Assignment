@@ -7,7 +7,7 @@ const UserList = (props) => {
   return (
     <div className="my-3">
       <div className="table-responsive my-3">
-        <h3 className="text-center text-info my-3"> Data</h3>
+        <h3 className="text-center  my-3"> Data</h3>
         <table className="table table-hover table-bordered table-pointer">
           <thead className="bg-secondary text-white">
             <tr>

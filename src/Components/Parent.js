@@ -11,7 +11,6 @@ const Parent = () => {
     if (num > 0) {
       SetNum(num - 1);
     } else {
-      alert("you can't go to negative number");
       SetNum(num);
     }
   };
@@ -23,7 +22,10 @@ const Parent = () => {
           <button onClick={increaseNumber} className="btn btn-primary mx-3">
             Increase
           </button>
-          <button onClick={decreaseNumber} className="btn btn-primary">
+          <button
+            onClick={decreaseNumber}
+            className={`btn btn-primary btn-sm ${num === 0 ? "disabled" : ""}`}
+          >
             Decrease
           </button>
         </div>
