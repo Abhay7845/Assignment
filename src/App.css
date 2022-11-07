@@ -1,0 +1,13 @@
+.parent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.styleParent {
+  border: 2px solid #a7a0a0;
+  padding: 10px;
+  height: 150px;
+}
